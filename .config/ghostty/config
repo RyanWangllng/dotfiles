@@ -1,0 +1,50 @@
+term = xterm-256color
+
+font-family = "Maple Mono NF CN"
+font-size = 12
+font-thicken = true
+font-feature = +calt
+font-feature = -liga
+adjust-cell-height = 3
+adjust-cell-width = 1
+
+background-opacity = 0.88
+background-blur = 30
+# macos-titlebar-style=hidden
+window-padding-x=12
+window-padding-y = 10
+window-padding-balance = true
+window-padding-color = extend
+window-save-state = always
+window-inherit-working-directory = true
+window-colorspace = display-p3
+window-theme = auto
+
+window-width = 160
+window-height = 50
+link-url = true
+
+cursor-style=bar
+cursor-style-blink = false
+cursor-opacity = 1.0
+
+copy-on-select = clipboard
+clipboard-trim-trailing-spaces = true
+focus-follows-mouse = true
+
+quick-terminal-position = top
+quick-terminal-screen = mouse
+quick-terminal-autohide = true
+quick-terminal-animation-duration = 0.12
+
+unfocused-split-fill = #1e1e2e
+
+shell-integration = detect
+shell-integration-features = no-cursor
+scrollback-limit=1000000000
+resize-overlay = after-first
+resize-overlay-position = bottom-right
+resize-overlay-duration = 500ms
+
+clipboard-paste-protection = true
+clipboard-paste-bracketed-safe = true
