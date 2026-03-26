@@ -136,6 +136,3 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 alias claude-mem='/Users/zachary/.bun/bin/bun "/Users/zachary/.claude/plugins/cache/thedotmack/claude-mem/10.6.2/scripts/worker-service.cjs"'
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
